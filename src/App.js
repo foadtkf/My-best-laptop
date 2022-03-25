@@ -1,9 +1,10 @@
 import './App.css';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import Header from './Components/Header/Header';
 function App() {
   return (
     <div className="App">
-      <button className='btn btn-success'>hello</button>
+      <Header></Header>
     </div>
   );
 }
