@@ -1,0 +1,37 @@
+[
+    {
+      "id": "623e3ee5cb0ab5f28d87f9aa",
+      "name": "Asus business class",
+      "price": 34000,
+      "brand": "Asus",
+      "img": "asus normal.jpg"
+    },
+    {
+      "id": "623e3ee51f8627a34f034163",
+      "name": "Asus gaming",
+      "price": 24000,
+      "brand": "Asus",
+      "img": "asus.jpg"
+    },
+    {
+      "id": "623e3ee50c8a9e4def41c627",
+      "name": "Dell gaming",
+      "price": 32000,
+      "brand": "Dell",
+      "img": "dell gaming.jpg"
+    },
+    {
+      "id": "623e3ee546c16679fd517a19",
+      "name": "Dell business class laptop",
+      "price": 31000,
+      "brand": "Dell",
+      "img": "dell normal.jpg"
+    },
+    {
+      "id": "623e3ee56448c12f1fafc213",
+      "name": "HP gaming",
+      "price": 33000,
+      "brand": "HP",
+      "img": "hp gaming.png"
+    }
+  ]

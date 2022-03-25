@@ -1,6 +1,12 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import '../../../node_modules/bootstrap/dist/css/bootstrap.min.css';
 const Left = () => {
+    const [laptops,setLaptop]=useState([])
+    useEffect(()=>{
+        fetch('products.json')
+        .then(res=>res.json())
+        .then(data=>console.log(data))
+    },[])
     return (
         <div>
             <div className="row row-cols-1 row-cols-md-3 g-4">
