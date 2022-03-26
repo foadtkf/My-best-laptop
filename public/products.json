@@ -4,34 +4,62 @@
       "name": "Asus business class",
       "price": 34000,
       "brand": "Asus",
-      "img": "asus normal.jpg"
+      "img": "products/asus normal.jpg"
     },
     {
       "id": "623e3ee51f8627a34f034163",
       "name": "Asus gaming",
       "price": 24000,
       "brand": "Asus",
-      "img": "asus.jpg"
+      "img": "products/asus.jpg"
     },
     {
       "id": "623e3ee50c8a9e4def41c627",
       "name": "Dell gaming",
       "price": 32000,
       "brand": "Dell",
-      "img": "dell gaming.jpg"
+      "img": "products/dell gaming.jpg"
     },
     {
       "id": "623e3ee546c16679fd517a19",
       "name": "Dell business class laptop",
       "price": 31000,
       "brand": "Dell",
-      "img": "dell normal.jpg"
+      "img": "products/dell normal.jpg"
     },
     {
       "id": "623e3ee56448c12f1fafc213",
       "name": "HP gaming",
       "price": 33000,
       "brand": "HP",
-      "img": "hp gaming.png"
+      "img": "products/hp gaming.png"
+    },
+    {
+      "id": "623e94ef7edc6f6b183f9c80",
+      "name": "HP business class laptop",
+      "price": 53234,
+      "brand": "HP",
+      "img": "products/hp normal.jpg"
+    },
+    {
+      "id": "623e94ef6f11fa0dc7384829",
+      "name": "Lenovo Gaming",
+      "price": 69029,
+      "brand": "Lenovo",
+      "img": "products/lenovo gaming.jpg"
+    },
+    {
+      "id": "623e94ef03102b3338f4b633",
+      "name": "Lenovo business class laptop",
+      "price": 64535,
+      "brand": "Lenovo",
+      "img": "products/lenovo normal.jpg"
+    },
+    {
+      "id": "623e94eff77058ee0d703a86",
+      "name": "Macbook",
+      "price": 42354,
+      "brand": "Apple",
+      "img": "products/macbook.jpg"
     }
   ]
