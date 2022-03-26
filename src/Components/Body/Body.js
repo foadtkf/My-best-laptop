@@ -5,6 +5,7 @@ import './Body.css';
 const Body = () => {
   const [laptops,setLaptop]=useState([])
     const [choose,setChoose]=useState([])
+    let [chosenone,setChosenone]=useState([])
     useEffect(()=>{
         fetch('products.json')
         .then(res=>res.json())
@@ -28,7 +29,15 @@ const Body = () => {
     const handleChooseagain=()=>{
 const emptylist=[]
 setChoose(emptylist)
-// setSelected(emptylist)
+setChosenone(emptylist)
+    }
+    const handleChooseone=()=>{
+      if(choose.length===0){
+        alert("please choose at least two products")
+      }
+      const index=Math.floor(Math.random()*10%(choose.length))
+      chosenone=choose[index]
+      setChosenone(chosenone)
     }
     return (
         <div className="row">
@@ -39,7 +48,7 @@ laptops.map(laptop=><Left key={laptop.id} laptop={laptop} addLaptop={addLaptop}>
             }
     </div>
     </div>
-    <div className="col-4"><Right handleChooseagain={handleChooseagain} choose={choose}></Right></div>
+    <div className="col-4"><Right handleChooseone={handleChooseone} chosenone={chosenone} handleChooseagain={handleChooseagain} choose={choose}></Right></div>
   </div>
     );
 };

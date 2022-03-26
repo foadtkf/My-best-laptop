@@ -2,6 +2,7 @@ import React from 'react';
 import './Right.css'
 const Right = (props) => {
     let choose=props.choose
+    let chn=props.chosenone
     return (
         <div>
            <h3 className='p-3'>Selected Laptops</h3> 
@@ -13,6 +14,13 @@ const Right = (props) => {
                     </div>))
            }
            <button className="btn btn-outline-primary" type="button" onClick={props.handleChooseone}>Choose 1</button>
+           {
+               chn.length!==0&&<div key={chn.id} className='choose'>
+               <img src={chn.img} className='ch-img' alt=""/>
+                   <strong><p>{chn.name}</p></strong>
+                    </div>
+               
+           }
            <button type="button" className="btn btn-danger" onClick={props.handleChooseagain}>Choose again</button>
            </div>
         </div>
